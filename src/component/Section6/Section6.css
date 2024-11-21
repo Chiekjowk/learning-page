@@ -1,0 +1,26 @@
+.section-6 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.section-6 .info {
+    width: 400px;
+}
+.section-6 img {
+    width: 500px;
+    border-radius: 7px;
+}
+
+@media (max-width: 400px) {
+    .section-6 img {
+        width: 350px;
+    }
+}
+@media (min-width: 400px) {
+    .section-6 img {
+        width: 400px;
+    }
+}

@@ -1,0 +1,32 @@
+.cards {
+    position: relative;
+    padding: 30px var(--main-padding);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+    overflow: hidden;
+
+}
+.cards .before,
+.cards .next {
+    position: absolute;
+    width: 20px;
+    padding: 0 20px;
+    height: 100%;
+    top: 0;
+    cursor: pointer;
+    bottom: 0;
+    z-index: 10;
+}
+.cards .before:hover,
+.cards .next:hover {
+    background-color: #b5b2b242;
+
+}
+.cards .before {
+    left: 0;
+}
+.cards .next {
+    right: 0;
+}
