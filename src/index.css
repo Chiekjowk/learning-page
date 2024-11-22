@@ -19,3 +19,8 @@
 .sec {
     padding: 30px var(--main-padding);
 }
+@media (min-width:1192px)  {
+    :root {
+        --main-padding: 100px;
+    }
+}

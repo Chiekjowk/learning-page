@@ -2,7 +2,7 @@
     position: relative;
     padding: 20px;
     background-color: #fff;
-    min-width: 340px;
+    min-width: 270px;
     border-radius: 8px;
     transition: 0.5s;
 }
@@ -28,9 +28,6 @@
     border-radius: 50%;
 }
 @media (max-width: 400px) {
-    .card {
-        min-width: 270px;
-    }
     .card .stars svg {
         width: 20px;
         color: var(--secondary-color);

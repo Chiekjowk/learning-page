@@ -5,13 +5,13 @@ const Section5 = () => {
   const [next, setNext] = useState(0);
 
   const handleNext = () => {
-    if (next < 1230) {
-      setNext((prev) => prev + 410);
+    if (next < 1020) {
+      setNext((prev) => prev + 340);
     }
   };
   const handlePrev = () => {
     if (next > 0) {
-      setNext((prev) => prev - 410);
+      setNext((prev) => prev - 340);
     }
   };
   return (
