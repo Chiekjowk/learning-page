@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #009688;
+    --secondary-color:#FFC107;
+    --main-padding: 20px;
+}
+.bg-m {
+    background-color: var(--main-color);
+}
+.primary-btn {
+    background-color: var(--secondary-color);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sec {
+    padding: 30px var(--main-padding);
+}
+@media (min-width:1192px)  {
+    :root {
+        --main-padding: 100px;
+    }
+}

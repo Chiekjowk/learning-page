@@ -1,5 +1,6 @@
 import './Main.css'
 import { info } from '../../info.js'
+import { IoMdStar } from "react-icons/io";
 const Main = () => {
   return (
     <div className="main">
@@ -30,12 +31,12 @@ const Main = () => {
                                     <img src={item.profile} alt="" />
                                 </div>
                                 <h2>{item.name}</h2>
-                            </div>
-                            <div className="stars">
-                                <div className="star">
-
-                            </div>
-                            <h3>num</h3>
+                                <div className="stars">
+                                    <div className="star">
+                                    <IoMdStar style={{color: "#ecc901" , fontSize: "25px"}}/>
+                                    </div>
+                                    <h3>{item.star}</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
