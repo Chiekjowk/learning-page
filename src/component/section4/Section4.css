@@ -1,0 +1,25 @@
+.primary-btn {
+  background-color: var(--secondary-color);
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.section4-1 {
+  display: flex;
+}
+
+.section4-1 {
+  display: flex;
+}
+
+.ladyImg {
+  width: 200px;
+}
+
+.gentImg {
+  width: 200px;
+}
