@@ -1,0 +1,38 @@
+.card {
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    min-width: 270px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.card .stars {
+    display: flex;
+    gap: 10px;
+}
+.card .stars svg {
+    width: 25px;
+    color: var(--secondary-color);
+}
+.card .profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.card h2 {
+    margin: 0;
+}
+.card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+@media (max-width: 400px) {
+    .card .stars svg {
+        width: 20px;
+        color: var(--secondary-color);
+    }
+}
+@media (min-width: 400px) {
+
+}

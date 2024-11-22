@@ -1,0 +1,40 @@
+.section-7 {
+    padding: 30px var(--main-padding);
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-7 ul {
+    list-style: none;
+    color:#fff;
+}
+.section-7 ul li {
+    margin: 10px 0;
+}
+.section-7 ul h2 {
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.section-7 .contact {
+    width: 280px;
+}
+.section-7 .contact .sub {
+    display: flex;
+}
+.section-7 .contact .sub button {
+    background-color: var(--secondary-color);
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 7px 7px 0;
+    padding: 10px;
+}
+.section-7 .contact .sub input {
+    border-radius: 7px 0 0 7px;
+    border: none;
+    padding: 0 10px;
+    outline: none;
+}
