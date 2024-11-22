@@ -1,0 +1,110 @@
+.main-container h1{
+    text-align: center;
+    margin-top: 4rem;
+    font-family: sans-serif;
+}
+.main-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 4rem;
+}
+.main-list h2{
+    font-family: sans-serif;
+    cursor: pointer;
+    position: relative;
+}
+.main-list h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 0%;
+    height: 4px;
+    background-color: #ecc901;
+    transition: width .5s ease-in-out;
+}
+.main-list h2:hover::after{
+    width: 100%;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    margin-bottom: 4rem;
+
+}
+
+.box{
+    width: 350px;
+    height: 450px;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: 3px 2px 5px 1px rgb(0,0,0,0.5);
+}
+.box .cover{
+    width: 310px;
+    height: 250px;
+    border-radius: .5rem;
+}
+.cover img{
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+}
+.des{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #9494947d;
+    padding: .5rem 0;
+}
+.des h3{
+    margin-top: 1rem;
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+.price{
+    font-size: 1.1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: #e9c601;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+}
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(230, 225, 225);
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+
+}

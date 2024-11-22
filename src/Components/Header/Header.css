@@ -1,0 +1,114 @@
+.header{
+  
+    background: #286E6C;
+  
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+  
+}
+.logo h1{
+    font-family: sans-serif;
+    color: #fff;
+}
+span{
+    color: #ecc901;
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    font-family: sans-serif;
+}
+ul li a{
+    position: relative;
+   
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 4px;
+    background-color: #ecc901;
+    transition: .3s ease-in-out;
+   
+}
+ul li a:hover::after{
+    width: 100%;
+}
+  
+.signup button{
+    padding: .5rem 1rem;
+    background-color: #ecc901;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.signup button:hover{
+    background-color:  #dcbb03;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6rem;
+   
+}
+
+.left h1{
+    font-family: sans-serif;
+    font-size: 3em;
+    color: #fff;
+    margin-bottom:.5rem ;
+}
+.left p{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+}
+.read{
+    margin-top: 4rem;
+    padding: .5rem 1rem;
+    background-color: #ecc901;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+.read:hover{
+    background-color:  #dcbb03;
+}
+
+.right .img{
+    width: 400px; 
+    border-radius: .5rem;
+}
+.right .img::after{
+    width: 400px; 
+    border: 1px solid #000;
+    border-radius: .5rem;
+}
+.img img{
+    width: 300px;
+    border-radius: .5rem;
+    box-shadow: 60px 40px 3px 10px rgb(0,0,0,0.5);
+
+}
