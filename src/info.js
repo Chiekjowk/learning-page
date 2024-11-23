@@ -10,7 +10,7 @@ export const info = [
         "star": 4.5,
     },
     {
-        "id": 1,
+        "id": 2,
         "img":"src/assets/pexels-divinetechygirl-1181259.jpg",
         "des":"Learn digital marketing for beginners",
         "profile":"src/assets/img1.jpg",
@@ -19,13 +19,22 @@ export const info = [
         "star": 3.5,
     },
     {
-        "id": 1,
+        "id": 3,
         "img":"src/assets/pexels-naboth-otieno-83498565-19805876.jpg",
         "des":"Learn advanced programming",
         "profile":"src/assets/img2.jpg",
         "name":"Logan Dusk",
         "price":"$99.99",
         "star": 5.5,
+    }, 
+    {
+        "id": 4,
+        "img":"src/assets/immg4.jpg",
+        "des":"Learn advanced programming",
+        "profile":"src/assets/img1.jpg",
+        "name":"Yoshua Dusk",
+        "price":"$99.99",
+        "star": 2.5,
     }
 
 ]

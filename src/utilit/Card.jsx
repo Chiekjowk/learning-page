@@ -35,7 +35,7 @@ const Card = ({ right }) => {
         doloribus doloremque tempore! Itaque suscipit mollitia magni alias
         quaerat minus.
       </p>
-      <div className="profile">
+      <div className="profile-1">
         <img src={girl} alt="Profile" />
         <h2>John Doe</h2>
       </div>

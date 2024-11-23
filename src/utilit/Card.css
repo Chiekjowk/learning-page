@@ -14,10 +14,11 @@
     width: 25px;
     color: var(--secondary-color);
 }
-.card .profile {
+.card .profile-1 {
     display: flex;
     gap: 20px;
     align-items: center;
+    margin-top: 1rem;
 }
 .card h2 {
     margin: 0;

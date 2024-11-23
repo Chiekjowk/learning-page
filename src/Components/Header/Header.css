@@ -1,15 +1,11 @@
 .header{
-  
     background: #286E6C;
-  
-
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
-  
 }
 .logo h1{
     font-family: sans-serif;
@@ -29,7 +25,6 @@ span{
 }
 ul li a{
     position: relative;
-   
     font-size: 1.4em;
     text-decoration: none;
     color: #fff;
@@ -50,20 +45,9 @@ ul li a:hover::after{
     width: 100%;
 }
   
-.signup button{
-    padding: .5rem 1rem;
-    background-color: #ecc901;
-    border-radius: .5rem;
-    border: none;
-    font-size: 1.2em;
-    font-family: sans-serif;
-    cursor: pointer;
-}
-.signup button:hover{
-    background-color:  #dcbb03;
-}
 
-.content{
+
+.content-1{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,34 +65,161 @@ ul li a:hover::after{
     font-family: sans-serif;
     font-size: 1.2em;
     color: #fff;
+    margin-bottom:.5rem ;
 }
-.read{
-    margin-top: 4rem;
-    padding: .5rem 1rem;
-    background-color: #ecc901;
-    border-radius: .5rem;
+.primary-btn-2 {
+    background-color: #ffd15c;
+    color: #000;
     border: none;
+    padding: 12px 24px;
     font-size: 1.2em;
-    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+  }
+  .primary-btn-1 {
+    background-color: #ffd15c;
+    color: #000;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 4rem;
+    width: fit-content;
+  }
 
-}
-.read:hover{
-    background-color:  #dcbb03;
-}
+  .primary-btn-1:hover,
+  .primary-btn-2:hover {
+    background-color: #ffc82e;
+  }
 
-.right .img{
+.right .right-img{
     width: 400px; 
     border-radius: .5rem;
 }
-.right .img::after{
+.right .right-img::after{
     width: 400px; 
     border: 1px solid #000;
     border-radius: .5rem;
 }
-.img img{
+.right-img img{
     width: 300px;
     border-radius: .5rem;
-    box-shadow: 60px 40px 3px 10px rgb(0,0,0,0.5);
+    box-shadow: 50px 30px 3px 4px rgb(0,0,0,0.5);
+
+}
+.menu{
+    display: none;
+}
+.hide{
+    display: flex;
+    position: relative;
+}
+
+.hide ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    top: 40px;
+    border-radius:.5rem ;
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    position: absolute;
+    padding: 1rem;
+    gap: .5rem;
+    background: #338885;
+}
+
+@media (max-width: 1060px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+    .content-1{
+        display: flex;
+        padding: 4rem 2rem;
+    }
+    .primary-btn-1 {
+        margin: 2rem 0rem;
+    }
+    .right .right-img{
+        display: none;
+        align-items: center;
+        width: 400px; 
+        border-radius: .5rem;
+    }
+
+
+}
+
+@media (max-width: 690px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+    .content-1{
+        padding: 4rem 2rem;
+    }
+    .primary-btn-2 {
+        display: none;
+    }
+    .right .right-img{
+        display: none;
+    }
+    .links ul{
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        list-style: none;
+        font-family: sans-serif;
+    }
+    .menu{
+        display: flex;
+    }
+      
+
+
+}
+@media (max-width: 500px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+    .content-1{
+        padding: 4rem 1rem;
+    }
+    .primary-btn-2 {
+        display: none;
+    }
+    .right .right-img{
+        display: none;
+    }
+    .links ul{
+        display: none;
+    }
+    .left h1{
+        font-size: 2.5em;
+    }
+    .left p{
+        font-size: .8em;
+    }
+    .primary-btn-1 {
+        font-size: 1em;
+      }
+      
+
 
 }
