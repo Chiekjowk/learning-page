@@ -5,9 +5,13 @@
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    font-family: sans-serif;
 }
 .section-6 .info {
     width: 400px;
+}
+.info h1{
+    margin-bottom: 1rem;
 }
 .section-6 img {
     width: 500px;
@@ -18,7 +22,12 @@
     .section-6 img {
         width: 350px;
     }
+    .section-6 .info {
+        padding: 1rem;
+    }
 }
+
+
 @media (min-width: 400px) {
     .section-6 img {
         width: 400px;

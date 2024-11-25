@@ -32,14 +32,10 @@
 .boxes{
     display: grid;
     grid-template-columns: repeat( auto-fill , minmax(350px ,1fr));
-    /* place-content: center; */
-    /* justify-content: center;
-    align-items: center; */
-    gap: 2rem;
-    
+    gap: .5rem;
     padding: 4rem 6rem;
-    margin-bottom: 4rem;
-
+    max-width: 1300px;
+    margin: auto;
 }
 
 .box{
@@ -129,16 +125,25 @@
 
 @media (max-width: 500px) {
     .main-list{
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        margin-top: 2rem;
+        display: none;
     }
     .main-list h2{
         font-size: 1.5em;
     }
     .boxes{
         padding: 4rem 4rem;
+    }
+    
+}
+@media (max-width: 400px) {
+    .main-list{
+        display: none;
+    }
+    .main-list h2{
+        font-size: 1.5em;
+    }
+    .boxes{
+        padding: 4rem 1.3rem;
     }
     
 }
