@@ -1,9 +1,10 @@
 .section-7 {
-    padding: 30px var(--main-padding);
+    padding: 2rem 1rem;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-family: sans-serif;
 }
 .section-7 ul {
     list-style: none;
@@ -31,6 +32,9 @@
     border: none;
     border-radius: 0 7px 7px 0;
     padding: 10px;
+}
+.sub{
+    margin-top: 1rem;
 }
 .section-7 .contact .sub input {
     border-radius: 7px 0 0 7px;

@@ -26,15 +26,5 @@ export const info = [
         "name":"Logan Dusk",
         "price":"$99.99",
         "star": 5.5,
-    }, 
-    {
-        "id": 4,
-        "img":"src/assets/immg4.jpg",
-        "des":"Learn advanced programming",
-        "profile":"src/assets/img1.jpg",
-        "name":"Yoshua Dusk",
-        "price":"$99.99",
-        "star": 2.5,
     }
-
 ]
