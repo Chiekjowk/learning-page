@@ -19,6 +19,15 @@ body {
   flex-direction: row-reverse;
 }
 
+.image-container1 {
+  position: relative;
+  width: 50%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .image-container {
   position: relative;
   width: 50%;
@@ -43,6 +52,13 @@ body {
 .background-shape.yellow {
   background-color: #ffd15c;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 85%);
+}
+
+.main-image1 {
+  position: relative;
+  z-index: 2;
+  max-width: 80%;
+  height: auto;
 }
 
 .main-image {
