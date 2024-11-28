@@ -9,11 +9,11 @@ export default function Section4() {
       {/* First Section - Lady */}
       <section className="education-section lady-section">
         <div className="image-container">
-          <div className="background-shape green"></div>
-          <img src={lady} alt="Teacher" className="main-image1" />
-          <div className="info-card lady">
+          <div className="background-shape green">
+          </div>
+            <img src={lady} alt="Teacher" className="main-image1" />
+          <div className="info-card-1 lady">
             <h4>Train Teachers</h4>
-            <div className="avatar-group"></div>
           </div>
         </div>
         <div className="content">

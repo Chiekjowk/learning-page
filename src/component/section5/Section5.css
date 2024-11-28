@@ -1,3 +1,6 @@
+.bg-m{
+    padding: 2rem 1rem;
+}
 .cards {
     position: relative;
     padding: 30px var(--main-padding);
