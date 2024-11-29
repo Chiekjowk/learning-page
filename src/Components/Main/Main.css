@@ -44,7 +44,8 @@
     border: none;
     border-radius: .5rem;
     padding: 1rem;
-    box-shadow: 3px 2px 5px 1px rgb(0,0,0,0.5);
+    margin-bottom: 1rem;
+    box-shadow: 3px 2px 5px 1px rgb(0,0,0,0.3);
 }
 .box .cover{
     width: 310px;
